@@ -1,0 +1,26 @@
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Visual Studio
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build Folders
+/bin/
+/obj/
+/out/
+
+# Logs
+*.log
+
+# Config Files
+appsettings.json
+secrets.json
+
+# User-specific Files
+*.swp
