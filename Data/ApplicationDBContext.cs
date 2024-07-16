@@ -17,7 +17,7 @@ namespace api.Data
         }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // Model yapılandırmaları burada
+            
         }
      
         public DbSet<Stock> Stocks { get; set; }
