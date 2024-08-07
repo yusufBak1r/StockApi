@@ -30,7 +30,7 @@ namespace api.Controller
           public async Task<IActionResult>GetAll()
            {
              var stocks = await _stockRepository.GetAllAsync();
-             var stokDto = stocks .Select(s=> s.ToStockDto());
+             var stokDto = stocks.Select(s=> s.ToStockDto()).ToList();
              
              return Ok(stocks);
           }

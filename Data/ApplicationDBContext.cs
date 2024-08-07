@@ -19,7 +19,12 @@ namespace api.Data
         {
             
         }
-     
+
+        internal async Task<Comment?> FindAsync(int id)
+        {
+            throw new NotImplementedException();
+        }
+
         public DbSet<Stock> Stocks { get; set; }
         public DbSet<Comment> Comments { get; set; }
     }
